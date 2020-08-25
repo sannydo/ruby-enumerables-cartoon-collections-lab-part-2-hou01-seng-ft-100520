@@ -18,7 +18,11 @@ def summon_captain_planet(planeteer_calls)
   # Return a new array of the results
   count = 0
   new_array = []
-  
+  while count > planeteer_calls.each do
+    new_array = planeteer_calls.first.capitalize!
+    puts "#{new_array}!"
+  end
+ end
 end
 
 def long_planeteer_calls(planeteer_calls)
