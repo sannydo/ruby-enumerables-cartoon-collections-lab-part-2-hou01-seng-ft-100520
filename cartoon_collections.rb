@@ -18,8 +18,8 @@ def summon_captain_planet(planeteer_calls)
   # Return a new array of the results
   index = 0
   while index < planeteer_calls.length do
-    new_array = planeteer_calls.first,
-    puts "#{new_array}.titleize!"
+    new_array = planeteer_calls.str.capitalize
+    puts "#{new_array}!"
     index += 1
   end
   new_array
