@@ -19,6 +19,7 @@ def summon_captain_planet(planeteer_calls)
   new_array = []
   index = 0
   while index < planeteer_calls.length do
+    if planeteer_calls < 4.length
     puts "#{planeteer_calls.capitalize}!"
   end
   new_array
