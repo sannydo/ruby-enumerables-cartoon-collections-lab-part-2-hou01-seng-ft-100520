@@ -20,6 +20,8 @@ def summon_captain_planet(planeteer_calls)
   index = 0
   while index < planeteer_calls.length do
     puts "#{planeteer_calls.capitalize}!"
+  end
+  new_array
 end
 
 def long_planeteer_calls(planeteer_calls)
